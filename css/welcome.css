@@ -1,0 +1,186 @@
+.container {
+	
+}
+
+.content {
+	padding: 30px 0px;
+}
+
+.jumbotron {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	border-radius: 0 !important;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	font-weight: lighter;
+
+	background-color: inherit;
+}
+
+.logo {
+	margin: 30px;
+	color: #c84835 !important;
+}
+
+.logo-pic {
+  width: 100%;
+  max-width: 600px;
+  max-height: 100%;
+}
+
+logo1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 100px;
+}
+
+logo2 {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 60px;
+}
+
+.logo-sub {
+	font-size: 30px !important;
+}
+
+.thumbnail {
+	width: 100%;
+	object-fit: contain;
+	border: 0;
+	padding: 5px;
+	margin: 0;
+}
+
+.pics {
+	padding-bottom: 30px;
+}
+
+.row {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.item {
+  display: table-cell;
+  vertical-align: top;
+  padding: 5px;
+  margin: 0;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.title {
+	color: #c84835;
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.title span{
+	border-bottom: 3px solid;
+	border-color: #a0a0a0;
+	padding-bottom: 5px;
+}
+
+.intro {
+	text-align: center;
+}
+
+.intro p {
+	font-size: 18px;
+}
+
+.social {
+	padding: 20px 0px;
+}
+
+.social-bar {
+  float: none;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.social-bar li {
+  float: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.social-bar li .fa {
+  font-size: 30px;
+  color: black;
+}
+
+.social-bar li .fa:hover {
+  font-size: 30px;
+  color: #c84835;
+}
+
+.clear { clear: both; }
+
+
+.package {
+	padding-top: 30px;
+}
+
+.package-header {
+	font-size: 18px;
+}
+
+.package li {
+	font-size: 15px;
+}
+
+.meetjenny {
+	text-align: left;
+}
+
+.meetjenny p {
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.meetjenny img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  margin-top: 20px;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.required {
+	text-align: right;
+	font-size: 15px;
+}
+
+#contact .btn-submit, #contact .btn-submit:hover, #contact .btn-submit:focus, #contact .btn-submit:active, #contact .btn-submit.active{
+	background-color: #c84835;
+	border-style: none;
+}
+
+.btn-submit:hover {
+	color: #d0d0d0;
+}
