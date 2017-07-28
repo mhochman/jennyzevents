@@ -40,6 +40,7 @@
 	font-size: 18px;
 	line-height: 50px;
     height: 50px;
+    width: 145px;
     padding-top: 0;
     padding-bottom: 0;
     margin: 0px 20px;
@@ -49,12 +50,10 @@
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
-	border: 2px solid #c84835;
 }
 
 .navbar-default .navbar-nav>.active>a {
-	color: white;
-	border: 2px solid black;
+	color: #d0d0d0;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav>.active>a:hover {
@@ -77,6 +76,7 @@
 		font-size: 15px;
 		line-height: 40px;
 		height: 40px;
+		width: 120px;
 		padding: 0px 10px;
 		margin: 0px 15px;
 	}
@@ -88,6 +88,7 @@
 		font-size: 12px;
 		line-height: 40px;
 		height: 40px;
+		width: 90px;
 		padding: 0px 10px;
 		margin: 0px 10px;
 	}
@@ -95,12 +96,30 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+	.navbar-nav li {
+		position: relative;
+		display: block;
+	}
+
 	#navbar li a {
 		font-size: 12px;
-		line-height: 40px;
-		height: 40px;
-		padding: 0px 10px;
-		margin: 0px 10px;
+	    border-radius: 0px;
+	    border-left: none;
+	    border-right: none;
+	    width: auto;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		border: 2px solid #c84835;
+	}
+
+	.navbar-default .navbar-nav>.active>a {
+		border: 2px solid black;
+	}
+
+	.navbar-nav {
+	  border-top: none;
+	  border-bottom: none;
 	}
 }
 
@@ -111,5 +130,17 @@
 		display: block;
 	}
 
+	.navbar-default .navbar-nav > li > a {
+		border: 2px solid #c84835;
+	}
+
+	.navbar-default .navbar-nav>.active>a {
+		border: 2px solid black;
+	}
+
+	.navbar-nav {
+	  border-top: none;
+	  border-bottom: none;
+	}
 
 }
