@@ -229,4 +229,8 @@ footer {
 	.logo-sub {
 		font-size: 18px !important;
 	}
+
+	.jumbotron p {
+		margin-bottom: -10px;
+	}
 }
