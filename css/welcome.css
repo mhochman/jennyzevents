@@ -42,6 +42,7 @@ logo2 {
 
 .logo-sub {
 	font-size: 30px !important;
+	margin-top: 10px;
 }
 
 .thumbnail {
@@ -183,4 +184,12 @@ logo2 {
 
 .btn-submit:hover {
 	color: #d0d0d0;
+}
+
+footer p {
+	margin-bottom: 3px;
+}
+
+footer {
+	margin-bottom: 20px;
 }
