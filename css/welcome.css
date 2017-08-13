@@ -257,7 +257,9 @@ footer {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-	
+	.portfolio p {
+		text-align: center;
+	}
 }
 
 /* Portrait phones and smaller */
@@ -272,5 +274,9 @@ footer {
 
 	.jumbotron p {
 		margin-bottom: -10px;
+	}
+
+	.portfolio p {
+		text-align: center;
 	}
 }
