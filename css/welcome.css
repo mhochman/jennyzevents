@@ -191,6 +191,11 @@ logo2 {
 	padding-top: 20px;
 }
 
+.portfolio-item {
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
 .gal {
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
